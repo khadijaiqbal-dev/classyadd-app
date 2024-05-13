@@ -1,0 +1,16 @@
+.blog-img-resize {
+  width: 100% !important;
+  height: 50% !important;
+}
+.ml-auto {
+  margin-left: auto;
+}
+.popular-heading p {
+  color: rgb(99, 236, 202);
+}
+em {
+  color: rgb(117, 113, 113);
+}
+.blog-container {
+  margin-top: 5%;
+}

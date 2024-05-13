@@ -1,0 +1,13 @@
+form {
+  margin: 26px 40px;
+  padding: 5px 36px;
+}
+@media screen and (max-width: 576px) {
+  form {
+    padding: 0;
+    margin: 0px;
+  }
+  .login-container {
+    margin: 0px 25px !important;
+  }
+}

@@ -1,0 +1,46 @@
+.newsletter {
+  background-color: #30e3ca;
+}
+.newsletter h2 {
+  color: #fff;
+  font-size: 18px;
+}
+.newsletter p:last-child {
+  margin-bottom: 0;
+}
+.newsletter p {
+  color: rgba(255, 255, 255, 0.7);
+}
+.newsletter .form-control {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: none;
+  padding-left: 0;
+}
+.newsletter .btn {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.site-footer .border-top {
+  border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+.footer-black {
+  background: #222020f0;
+  color: #6a6a6a;
+  padding: 102px 0px;
+}
+.footer-heading {
+  font-size: 16px;
+  color: white;
+  font-weight: 200;
+}
+.footer-list {
+  line-height: 2.5;
+}
+.btn-primary {
+  padding: 3px 11px;
+  border: 1px;
+}
+.border-none {
+  border: 1px;
+}

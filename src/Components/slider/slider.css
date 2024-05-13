@@ -1,0 +1,54 @@
+.slider-img {
+  height: 139px;
+  width: 239px;
+}
+.slider-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.slick-slider .card {
+  max-width: 241px; /* Set your desired maximum width */
+  width: 80%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the card horizontally within the slide */
+  box-shadow: 0px 34px 15px -10px;
+  border: 1px solid transparent;
+}
+.heart-icon {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.heart-icon p {
+  border-radius: 13px;
+  border: 1px solid transparent;
+  background: #2c24240d;
+  font-size: 12px;
+  padding: 5px 8px;
+}
+.heart {
+  font-size: 20px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  background: #2c24240d;
+
+  padding: 0px 5px;
+  margin: 0;
+  height: 33px;
+  color: #0fd5d7;
+}
+.icon-yellow {
+  color: orange;
+}
+.heart:hover {
+  color: red;
+}
+@media screen and (max-height: 470px) {
+  .slider-img img {
+    height: 171px !important;
+    width: 359px !important;
+  }
+  .card {
+    max-width: 370px;
+  }
+}

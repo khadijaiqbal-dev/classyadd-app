@@ -1,0 +1,57 @@
+.vertical {
+  width: 100%;
+  height: auto;
+}
+.vertical img {
+  width: 100%;
+}
+.ads .lh-content {
+  padding: 20px;
+  position: relative;
+  width: 100%;
+}
+.real-estate {
+  font-size: 11px;
+
+  color: #000;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: space-between;
+}
+.heart-rounded {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.03);
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+  font-size: 16px;
+}
+.ads-heart {
+  padding: 1px 8px;
+  color: aquamarine;
+}
+pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.ads-container {
+  margin-top: 10%;
+}
+.filter {
+  margin-left: auto;
+}
+@media screen and (max-width: 992) {
+  .ads img {
+    width: 100px;
+  }
+}
